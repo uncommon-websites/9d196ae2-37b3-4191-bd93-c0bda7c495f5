@@ -11,12 +11,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="/sample.png"
-	generating
+	centered={true}
+	title="A global account for the rest of us."
+	subtitle="Send, spend, and invest—without borders."
+	imageSrc="/generated/image-a-young-professional-is-casually-leaning.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by industry leaders"
+	logoUrls={[
+		'https://logo.clearbit.com/expensify.com',
+		'https://logo.clearbit.com/remitly.com',
+		'https://logo.clearbit.com/transferwise.com',
+		'https://logo.clearbit.com/remote.com'
+	]}
+/>
 
 <Summary
 	generating
